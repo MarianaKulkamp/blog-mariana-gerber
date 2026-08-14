@@ -1,6 +1,6 @@
 :root {
-    --cor-primaria: #183C63;
-    --cor-secundaria: #3782d2;
+    --cor-primaria: rgb(243, 5, 5);
+    --cor-secundaria: #ff8800;
     --cor-fundo: #ffffff;
     --cor-texto: #151428;
     --cor-contraste: #f3eef7;
@@ -14,9 +14,9 @@
 }
 
 .tema-escuro {
-    --cor-primaria: #A6CEFE;
-    --cor-secundaria: #98caff;
-    --cor-fundo: #0f172a;
+    --cor-primaria: lch(53.28% 104.17 39.84);
+    --cor-secundaria: #fc7a00;
+    --cor-fundo: #0f4ad6;
     --cor-texto: #ffffff;
     --cor-contraste: #1e293b;
     --cor-botao: #151428;
@@ -81,7 +81,7 @@ main {
 
 article {
     display: flex;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 10px rgba(255, 0, 0, 0.3);
     margin: 16px;
     gap: 16px;
     padding: 16px;
